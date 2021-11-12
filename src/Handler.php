@@ -55,7 +55,7 @@ class Handler
      *
      * @var bool
      */
-    private static $enableShutdownHandler = true;
+    public static $enableShutdownHandler = false;
 
     /**
      * Register our handlers.
